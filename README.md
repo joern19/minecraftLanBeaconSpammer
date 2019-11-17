@@ -10,4 +10,5 @@ The Format is `motd#port` if you want to display a `#` just type `##`. A new Lin
 
 The delay is optional. The Default is 1000 for 1 Secound or 1000 milisecounds.
 
-<img src="serverList.png">
+## Example
+<img src="usage.gif">
