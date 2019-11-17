@@ -33,10 +33,10 @@ def format(line):
         print("The Format is as Follows: 'motd#port'")
         print("If you want to display an '#' just make '##'")
         exit()    
-    port = a.split("#", 1)[1]
-    
+    b = a.split("#", 1)[1]
+    port = line[-len(b):]
     motd = line[:-(len(port) + 1)]
-    return [motd.replace("##", "#"), port]
+    return [motd.replace("##", "#"), port.replace("##", "#")]
 
 def file_parser(path, out):
     if os.path.isfile(path):
