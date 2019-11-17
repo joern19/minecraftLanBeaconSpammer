@@ -1,0 +1,8 @@
+motd#port
+the motd and port is splitted with a ## #If you want to display a ## just type in two of them.
+many Server#or not?
+why do I have written this#tool?
+this Is Funny#isn't it?
+the code has less then 100#rows.
+Sadly i cannot change the Name of the Server :(#:(
+now i write a very long text. Lets look how it will be formatted. Just a few more letters... And done#This here will also be pretty long. It looks a litte bit abnormal...
