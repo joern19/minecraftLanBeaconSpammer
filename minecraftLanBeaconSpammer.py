@@ -18,7 +18,7 @@ def start():
         while True:
             for entry in entrys:
                 send(entry[0], entry[1])
-            print("+", end="")
+            print("+", end="", flush=True)
             time.sleep(delay / 1000)
     except KeyboardInterrupt:
         print("\nProgramm cancelled.")
